@@ -1,0 +1,1 @@
+export default function decorate(e){const[t]=e.children,n=document.createElement("blockquote");n.textContent=t.textContent.trim(),t.replaceChildren(n)}
